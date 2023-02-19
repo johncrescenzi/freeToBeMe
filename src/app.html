@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
+		
+		<!--Daisy UI-->
+		<link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<!--
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_Y04wxTKvDDJrmqGDoIo8D4EGUWe37B8&callback=initMap"></script>
+		-->
+		<!---->
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+	<style>
+		    img {
+        height: 5vh;
+    }
+
+	.carousel {
+		height:50vh;
+	}
+
+	.carousel img {
+		height:50vh;
+	}
+
+	.hero-content {
+		padding: 5vw;
+	}
+	.hero {
+		height: 85vh;
+	}
+	.hero-box {
+		margin-top: 33vh;
+		border-radius: 50px;
+		padding: 5vw;
+	}
+
+	.card img {
+		height: 33vh;
+
+	}
+
+	h1,p {
+		color: white
+	}
+
+	.map {
+		height: 100vh;
+		
+	}
+
+	.messenger, .messenger img {
+		height: 82.5vh;
+	}
+
+	</style>
 </html>
