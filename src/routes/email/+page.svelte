@@ -15,9 +15,11 @@
               <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                   <div class="text-center lg:text-left">
-                    <h1 class="text-5xl font-bold">Join Us!</h1>
-                    <p class="py-6">Job Info</p>
+                    <h1 class="text-5xl font-bold">Contact Us!</h1>
+                    <h2>info@freetobeme.org</h2>
                   </div>
+
+
                   <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div class="card-body">
                       <div class="form-control">
@@ -33,20 +35,26 @@
                       <div class="form-control">
                         <label class="label">
                         </label>
-                        <input type="text" placeholder="Phone Number" class="input input-bordered" />
+                        <input type="text" placeholder="Title" class="input input-bordered" />
                       </div>
-                      <div class="form-control w-full max-w-xs">
+                      <div class="form-control">
                         <label class="label">
-                          <span class="label-text">Upload Resume</span>
-                          <span class="label-text-alt">Less than 5MB</span>
                         </label>
-                        <input type="file" class="file-input file-input-bordered w-full max-w-xs" />
-                      </div>
+                        <input type="text" placeholder="Message" class="input input-bordered" />
+                      </div> 
                       <div class="form-control mt-6">
                         <button class="btn btn-primary">Send</button>
                       </div>
                     </div>
+                    <div class="form-control mt-6">
+                      <button class="btn btn-error">Email App</button>
+                      <button class="btn btn-error">Copy</button>
+                    </div>
                   </div>
+
+
+
+
                 </div>
             
           </div>
